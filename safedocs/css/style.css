@@ -1,0 +1,80 @@
+
+body {
+ margin: 0; 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #f4f7fc; }
+
+.container { 
+max-width: 900px;
+ margin: 0 auto; 
+padding: 30px; }
+
+header { display: flex; 
+justify-content: space-between;
+ align-items: center;
+ margin-bottom: 30px; }
+
+h1 { 
+color: #1f3c88;
+ font-size: 28px; }
+
+.logout a { 
+text-decoration: none;
+ background-color: #ff4d4f;
+ color: #fff;
+ padding: 10px 20px;
+ border-radius: 6px; }
+
+.upload-section { 
+margin-bottom: 30px; }
+
+.upload-section form {
+ display: flex;
+ flex-direction: column;
+ gap: 10px; }
+
+.upload-section input[type="file"] {
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px; }
+
+.upload-section button {
+ width: 150px;
+ background-color: #1f3c88;
+ color: white;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer; }
+
+.docs-table table { width: 100%; 
+border-collapse: collapse; 
+background: #fff;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+.docs-table th, .docs-table td {
+ padding: 15px;
+ text-align: left; }
+
+.docs-table th { 
+background-color: #1f3c88;
+ color: white; }
+
+.docs-table tr:nth-child(even) { 
+background-color: #f9f9f9; }
+
+.btn-view, .btn-delete {
+ text-decoration: none;
+ padding: 6px 12px;
+ border-radius: 5px;
+ margin-right: 5px;
+ font-size: 14px; }
+
+.btn-view { background-color: #4caf50;
+ color: white; }
+
+.btn-delete { 
+
+background-color: #f44336;
+ color: white; }
