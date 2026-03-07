@@ -1,36 +1,109 @@
-# SAFEDOCS
+# SAFEDOCS – Secure Document Storage Web Application
 
-Secure Document Storage Web Application built using PHP and MySQL.
+SAFEDOCS is a **web-based document management system** developed using **PHP and MySQL**.
+It allows users to securely upload, store, and manage important personal documents through a web interface.
 
-## 📌 Project Description
-SAFEDOCS is a web-based document storage system that allows users to securely upload, store, and manage important documents online. The system includes role-based access for Admin and Users.
+The system includes **role-based access control** for **Admin and Users**, secure file upload validation, and storage management features.
+
+---
 
 ## 🚀 Features
-- User registration and login
-- Admin login and dashboard
-- Secure file upload
-- Document storage and retrieval
-- Password reset functionality
-- Role-based access control (Admin & User)
+
+* User registration and authentication
+* Admin login and dashboard
+* Secure document upload and storage
+* Document retrieval and management
+* Password reset functionality
+* Role-based access control (Admin & User)
+
+### 🔒 Security & Storage Controls
+
+* File type validation (**PDF and TXT files only**)
+* Maximum file upload size: **10 MB per file**
+* Per-user storage quota: **100 MB total storage**
+* System tracks total storage used by each user
+
+---
 
 ## 🛠 Technologies Used
-- PHP
-- MySQL
-- HTML
-- CSS
-- XAMPP (Apache Server)
+
+* **Backend:** PHP
+* **Database:** MySQL
+* **Frontend:** HTML, CSS
+* **Server:** Apache (XAMPP)
+
+---
+
+## 📂 Project Structure
+
+```
+SAFEDOCS
+│
+├── css
+├── js
+├── uploads
+├── admin
+├── user
+├── config
+├── login.php
+├── register.php
+└── upload.php
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Install **XAMPP**
+2. Copy the project folder into the **htdocs** directory
+
+Example:
+
+```
+C:\xampp\htdocs\safedocs
+```
+
+3. Start **Apache** and **MySQL** in XAMPP
+
+---
 
 ## 🗄 Database Setup
-1. Open **phpMyAdmin**
-2. Create a new database (example: `safedocs`)
-3. Import the file **dataa.sql**
 
-## ▶️ How to Run
-1. Install XAMPP
-2. Place project inside `htdocs`
-3. Start **Apache** and **MySQL**
-4. Open browser and go to  
-   `http://localhost/safedocs`
+1. Open **phpMyAdmin**
+2. Create a new database named:
+
+```
+safedocs
+```
+
+3. Import the database file:
+
+```
+dataa.sql
+```
+
+---
+
+## ▶️ Run the Application
+
+Open your browser and navigate to:
+
+```
+http://localhost/safedocs
+```
+
+---
+
+## 📌 Notes
+
+* Uploaded files are stored in the **uploads directory**
+* Only **PDF and TXT files** are allowed
+* Each file must be **10 MB or smaller**
+* Each user has a **maximum storage limit of 100 MB**
+
+---
 
 ## 👨‍💻 Author
-Ganapathy S
+
+**Ganapathy S**
+GitHub: https://github.com/Ganapathy-s22
